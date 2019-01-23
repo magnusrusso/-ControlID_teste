@@ -1,0 +1,2 @@
+ui->conectar->setIcon(QIcon("C:\\Users\\Usuario\\Documents\\Control_ID\\conect.png"));
+        ui->conectar->setIconSize(QSize(15, 15));

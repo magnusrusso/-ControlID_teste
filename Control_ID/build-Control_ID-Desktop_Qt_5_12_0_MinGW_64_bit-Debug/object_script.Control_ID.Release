@@ -1,0 +1,10 @@
+release/main.o
+release/tela_inicial.o
+release/altera_hora.o
+release/novocadastro.o
+release/clientes.o
+release/valid.o
+release/moc_tela_inicial.o
+release/moc_altera_hora.o
+release/moc_novocadastro.o
+release/moc_clientes.o

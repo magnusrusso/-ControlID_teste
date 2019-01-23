@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>tela_inicial</class>
+ <widget class="QMainWindow" name="tela_inicial">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>663</width>
+    <height>313</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>2222222</width>
+    <height>2222222</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>tela_inicial</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 209, 255, 220), stop:1 rgba(209, 255, 255, 255));
+}</string>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTextEdit" name="log">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>100</y>
+      <width>421</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(18, 100, 198, 255), stop:1 rgba(169, 255, 255, 255));
+border-style: solid;
+border-width: 1px;
+border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 209, 255, 220), stop:1 rgba(209, 255, 255, 255));
+color: rgb(255, 255, 255);
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="listar">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>10</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pesquisar Clientes&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(18, 100, 198, 255), stop:1 rgba(169, 255, 255, 255));
+border-style: solid;
+border-width: 1px;
+border-color: rgb(18, 100, 198);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+
+}
+
+QPushButton:hover{	
+	background-color: qradialgradient(spread:reflect, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(169, 255, 255, 255), stop:1 rgba(18, 100, 198, 255));
+    border-style: solid;
+border-width: 1px;
+border-color: rgb(18, 100, 198);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+}
+
+QPushButton:pressed{
+	
+	background-color: rgb(123, 117, 179);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: gray;
+    font: bold 10px;
+    padding: 20px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="imagens.qrc">
+      <normaloff>:/icons_inciais/imagens/clientes.png</normaloff>:/icons_inciais/imagens/clientes.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>100</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="conectar">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>91</width>
+      <height>61</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Conectar&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="whatsThis">
+     <string/>
+    </property>
+    <property name="accessibleDescription">
+     <string/>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(18, 100, 198, 255), stop:1 rgba(169, 255, 255, 255));
+border-style: solid;
+border-width: 1px;
+border-color: rgb(18, 100, 198);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+
+}
+
+QPushButton:hover{	
+	background-color: qradialgradient(spread:reflect, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(169, 255, 255, 255), stop:1 rgba(18, 100, 198, 255));
+    border-style: solid;
+border-width: 1px;
+border-color: rgb(18, 100, 198);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+}
+
+QPushButton:pressed{
+	
+	background-color: rgb(123, 117, 179);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: gray;
+    font: bold 10px;
+    padding: 20px;
+}</string>
+    </property>
+    <property name="text">
+     <string notr="true"/>
+    </property>
+    <property name="icon">
+     <iconset resource="imagens.qrc">
+      <normaloff>:/icons_inciais/imagens/conectar.fw.png</normaloff>:/icons_inciais/imagens/conectar.fw.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>100</width>
+      <height>40</height>
+     </size>
+    </property>
+    <property name="shortcut">
+     <string notr="true" extracomment="teste"/>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cadastrar">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>10</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>91</width>
+      <height>61</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cadastro&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(18, 100, 198, 255), stop:1 rgba(169, 255, 255, 255));
+border-style: solid;
+border-width: 1px;
+border-color: rgb(18, 100, 198);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+
+}
+
+QPushButton:hover{	
+	background-color: qradialgradient(spread:reflect, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(169, 255, 255, 255), stop:1 rgba(18, 100, 198, 255));
+    border-style: solid;
+border-width: 1px;
+border-color: rgb(18, 100, 198);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+}
+
+QPushButton:pressed{
+	
+	background-color: rgb(123, 117, 179);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: gray;
+    font: bold 10px;
+    padding: 20px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="imagens.qrc">
+      <normaloff>:/icons_inciais/imagens/cadastro.fw.png</normaloff>:/icons_inciais/imagens/cadastro.fw.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>100</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="acionar">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>10</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Aciona Relê&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(18, 100, 198, 255), stop:1 rgba(169, 255, 255, 255));
+border-style: solid;
+border-width: 1px;
+border-color: rgb(18, 100, 198);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+
+}
+
+QPushButton:hover{	
+	background-color: qradialgradient(spread:reflect, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(169, 255, 255, 255), stop:1 rgba(18, 100, 198, 255));
+    border-style: solid;
+border-width: 1px;
+border-color: rgb(18, 100, 198);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+}
+
+QPushButton:pressed{
+	
+	background-color: rgb(123, 117, 179);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: gray;
+    font: bold 10px;
+    padding: 20px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="imagens.qrc">
+      <normaloff>:/icons_inciais/imagens/relay.png</normaloff>:/icons_inciais/imagens/relay.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>100</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="alterar">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>10</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hora/Data&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(18, 100, 198, 255), stop:1 rgba(169, 255, 255, 255));
+border-style: solid;
+border-width: 1px;
+border-color: rgb(18, 100, 198);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+
+}
+
+QPushButton:hover{	
+	background-color: qradialgradient(spread:reflect, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(169, 255, 255, 255), stop:1 rgba(18, 100, 198, 255));
+    border-style: solid;
+border-width: 1px;
+border-color: rgb(18, 100, 198);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+}
+
+QPushButton:pressed{
+	
+	background-color: rgb(123, 117, 179);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: gray;
+    font: bold 10px;
+    padding: 20px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="imagens.qrc">
+      <normaloff>:/icons_inciais/imagens/hora_data.fw.png</normaloff>:/icons_inciais/imagens/hora_data.fw.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>100</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sair">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>10</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Sair&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(18, 100, 198, 255), stop:1 rgba(169, 255, 255, 255));
+border-style: solid;
+border-width: 1px;
+border-color: rgb(18, 100, 198);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+
+}
+
+QPushButton:hover{	
+	background-color: qradialgradient(spread:reflect, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(169, 255, 255, 255), stop:1 rgba(18, 100, 198, 255));
+    border-style: solid;
+border-width: 1px;
+border-color: rgb(18, 100, 198);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+}
+
+QPushButton:pressed{
+	
+	background-color: rgb(123, 117, 179);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: gray;
+    font: bold 10px;
+    padding: 20px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="imagens.qrc">
+      <normaloff>:/icons_inciais/imagens/sair.fw.png</normaloff>:/icons_inciais/imagens/sair.fw.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>100</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>80</y>
+      <width>500</width>
+      <height>3</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>601</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="visual_qtb">
+    <property name="geometry">
+     <rect>
+      <x>13</x>
+      <y>100</y>
+      <width>171</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(18, 100, 198, 255), stop:1 rgba(169, 255, 255, 255));
+border-style: solid;
+border-width: 1px;
+border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 209, 255, 220), stop:1 rgba(209, 255, 255, 255));
+color: rgb(255, 255, 255);
+border-radius: 5px;
+color: rgb(0,0,0);
+
+
+</string>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+    <property name="editTriggers">
+     <set>QAbstractItemView::NoEditTriggers</set>
+    </property>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>100</y>
+      <width>16</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="atualiza">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>250</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="imagens.qrc">
+      <normaloff>:/icons_inciais/imagens/atualiza.png</normaloff>:/icons_inciais/imagens/atualiza.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>12</height>
+     </size>
+    </property>
+   </widget>
+   <zorder>visual_qtb</zorder>
+   <zorder>log</zorder>
+   <zorder>listar</zorder>
+   <zorder>conectar</zorder>
+   <zorder>cadastrar</zorder>
+   <zorder>acionar</zorder>
+   <zorder>alterar</zorder>
+   <zorder>sair</zorder>
+   <zorder>line</zorder>
+   <zorder>line_2</zorder>
+   <zorder>line_3</zorder>
+   <zorder>atualiza</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="imagens.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/icons_inciais">
+        <file>imagens/cadastro.fw.png</file>
+        <file>imagens/clientes.png</file>
+        <file>imagens/conectar.fw.png</file>
+        <file>imagens/hora_data.fw.png</file>
+        <file>imagens/relay.png</file>
+        <file>imagens/sair.fw.png</file>
+        <file>imagens/backgrond.jpg</file>
+        <file>imagens/edit.fw.png</file>
+        <file>imagens/excluir.fw.png</file>
+        <file>imagens/salvar.fw.png</file>
+        <file>imagens/pasta.png</file>
+        <file>imagens/atualiza.png</file>
+        <file>imagens/camera.fw.png</file>
+    </qresource>
+</RCC>

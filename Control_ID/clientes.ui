@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>clientes</class>
+ <widget class="QDialog" name="clientes">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>852</width>
+    <height>403</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 209, 255, 220), stop:1 rgba(209, 255, 255, 255));
+}
+
+
+QPushButton {
+background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(18, 100, 198, 255), stop:1 rgba(169, 255, 255, 255));
+border-style: solid;
+border-width: 1px;
+border-color: rgb(18, 100, 198);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+
+}
+
+QPushButton:hover{	
+	background-color: qradialgradient(spread:reflect, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(169, 255, 255, 255), stop:1 rgba(18, 100, 198, 255));
+    border-style: solid;
+border-width: 1px;
+border-color: rgb(18, 100, 198);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+}
+
+QPushButton:pressed{
+	
+	background-color: rgb(123, 117, 179);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: gray;
+    font: bold 10px;
+    padding: 20px;
+}</string>
+  </property>
+  <widget class="QTableWidget" name="local">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>821</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(18, 100, 198, 255), stop:1 rgba(169, 255, 255, 255));
+border-style: solid;
+border-width: 1px;
+border-color: rgb(18, 100, 198);
+color: rgb(255, 255, 255);
+border-radius: 5px;
+font: 63 10pt &quot;Yu Gothic UI Semibold&quot;;
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::NoEditTriggers</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="editar">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>340</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="imagens.qrc">
+     <normaloff>:/icons_inciais/imagens/edit.fw.png</normaloff>:/icons_inciais/imagens/edit.fw.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>25</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="excluir">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>340</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="imagens.qrc">
+     <normaloff>:/icons_inciais/imagens/excluir.fw.png</normaloff>:/icons_inciais/imagens/excluir.fw.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>25</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="imagens.qrc"/>
+ </resources>
+ <connections/>
+</ui>

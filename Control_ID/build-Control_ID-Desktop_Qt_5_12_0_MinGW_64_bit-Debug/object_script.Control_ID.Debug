@@ -1,0 +1,10 @@
+debug/main.o
+debug/tela_inicial.o
+debug/altera_hora.o
+debug/novocadastro.o
+debug/clientes.o
+debug/valid.o
+debug/moc_tela_inicial.o
+debug/moc_altera_hora.o
+debug/moc_novocadastro.o
+debug/moc_clientes.o
